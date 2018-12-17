@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">서울문화콕콕</string>
+    <string name="get_kakao_sdk_appkey">@string/kakao_sdk_appkey</string>
+    <string name="get_open_api_key">@string/open_api_key</string>
+</resources>

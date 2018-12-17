@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark" />
+    <color name="colorPrimary" />
+    <color name="colorAccent" />
+    <color name="textBrightColor">#F0F0F0</color>
+    <color name="borderColor">#ebebeb</color>
+    <color name="backGroundColor">#f0f0f0</color>
+    <color name="backColor">#f9f9f9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="pressed">#3b92ff</color>
+    <color name="unpressed">#ffffff</color>
+    <color name="backGround">#ecf0f5</color>
+    <color name="nav_checked">#3b92ff</color>
+    <color name="d_day_text_color">#ee7e1a</color>
+    <color name="nav_unchecked">#000000</color>
+    <color name="input_text_back">#2f3948</color>
+    <color name="mini_type_text">#4D000000</color>
+    <color name="cultural_event_list_item_type">#ee7e1a</color>
+</resources>

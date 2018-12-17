@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/a_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor">
+
+    <net.joobjoob.app.seoul_culture_api.Common.NonSwipeableViewPager
+        android:id="@+id/viewPager_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:paddingBottom="50dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/a_main_bnv"
+        android:background="@color/borderColor">
+
+    </View>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/a_main_bnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/backColor"
+        app:itemIconTint="@drawable/select_bottom_navigation"
+        app:itemTextColor="@drawable/select_bottom_navigation"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>

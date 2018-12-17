@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_1"
+        android:enabled="true"
+        android:icon="@drawable/tap_home_active"
+        android:title="추천"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_2"
+        android:enabled="true"
+        android:icon="@drawable/tap_search"
+        android:title="검색"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_3"
+        android:enabled="true"
+        android:icon="@drawable/tap_heart"
+        android:title="나의콕"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_4"
+        android:enabled="true"
+        android:icon="@drawable/tap_mypage"
+        android:title="마이페이지"
+        app:showAsAction="ifRoom" />
+</menu>

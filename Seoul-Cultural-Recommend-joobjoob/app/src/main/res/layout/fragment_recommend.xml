@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/keyword1"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="이색적인"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword2"
+                            android:layout_width="60dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="차분한"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword3"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="마이너한"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword4"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="인기많은"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword5"
+                            android:layout_width="82dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="가족과 함께"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword6"
+                            android:layout_width="60dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="데이트"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword7"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="아이와 함께"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword8"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="활동적인"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword9"
+                            android:layout_width="60dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="키치한"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword10"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="저녁시간"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword11"
+                            android:layout_width="50dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="실내"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword12"
+                            android:layout_width="60dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="낮시간"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword13"
+                            android:layout_width="90dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="연인과 함께"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword14"
+                            android:layout_width="60dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="디자인"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword15"
+                            android:layout_width="50dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="회화"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword16"
+                            android:layout_width="50dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="건축"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword17"
+                            android:layout_width="50dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="야외"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                        <CheckBox
+                            android:id="@+id/keyword18"
+                            android:layout_width="72dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="11.4dp"
+                            android:button="@null"
+                            android:gravity="center"
+                            android:text="고전적인"
+                            android:textColor="#353535"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/remove18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/backColor"
+                            android:src="@drawable/x_button"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <ImageButton
+                android:id="@+id/addKeyword"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/backColor"
+                android:src="@drawable/plus_button" />
+
+        </LinearLayout>
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="25dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:text="오늘은 이런 전시 어때요?"-->
+        <!--android:textColor="#41aefb"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold" />-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="62dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="12dp"-->
+        <!--android:paddingRight="12dp"-->
+        <!--android:visibility="gone">-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/layout_category"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:clickable="true"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:onClick="showCategory"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/category"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:includeFontPadding="false"-->
+        <!--android:text="명칭"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone" />-->
+        <!--&lt;!&ndash;-->
+        <!--<ImageView-->
+        <!--android:id="@+id/category_selector"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="27dp"-->
+        <!--android:padding="2dp"-->
+        <!--android:src="@drawable/selector_btn_category" />-->
+
+        <!--!&ndash;&gt;-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/layout_category_1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/start_date"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/input_text_background"-->
+        <!--android:clickable="true"-->
+        <!--android:gravity="center"-->
+        <!--android:includeFontPadding="false"-->
+        <!--android:onClick="showDatePickerDialog"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="3dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="~"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/end_date"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="3dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@drawable/input_text_background"-->
+        <!--android:clickable="true"-->
+        <!--android:gravity="center"-->
+        <!--android:includeFontPadding="false"-->
+        <!--android:onClick="showDatePickerDialog"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginLeft="12dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:onClick="searchPeriod"-->
+        <!--android:padding="7dp"-->
+        <!--android:src="@drawable/icon_search"-->
+        <!--android:visibility="gone" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/layout_category_2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:clickable="true"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:onClick="showSubCodeCatalog"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/category_subcode_name"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="27dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:includeFontPadding="false"-->
+        <!--android:text="장르를 선택해 주세요."-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="14sp"-->
+        <!--android:visibility="gone" />-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/category_subcode_selector"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="27dp"-->
+        <!--android:padding="2dp"-->
+        <!--android:src="@drawable/selector_btn_category"-->
+        <!--android:visibility="gone" />-->
+        <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/cultural_listview_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/backColor"
+            android:divider="@null" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="장르선택"
+        style="@style/customMenuItemIcon"
+        android:textColor="@color/pressed"
+        android:id="@+id/Category_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/keyword_select"
+        android:src="@drawable/keyword_select" />
+
+</RelativeLayout>

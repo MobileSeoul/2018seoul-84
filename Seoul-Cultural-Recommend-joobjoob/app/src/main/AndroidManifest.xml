@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.joobjoob.app.seoul_culture_api">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="net.joobjoob.app.seoul_culture_api.Kakao.GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/new_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/new_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light">
+        <activity
+            android:name="net.joobjoob.app.seoul_culture_api.Common.KeywordActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name="net.joobjoob.app.seoul_culture_api.Common.KeywordAddActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name="net.joobjoob.app.seoul_culture_api.Kakao.KakaoSignupActivity"></activity>
+        <activity
+            android:name="net.joobjoob.app.seoul_culture_api.CultureEvent.CulturalEventSearch"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name="net.joobjoob.app.seoul_culture_api.CultureEvent.CulturalEventDetail"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity
+            android:name="net.joobjoob.app.seoul_culture_api.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name="net.joobjoob.app.seoul_culture_api.Common.BaseActivity"></activity>
+        <activity
+            android:name="net.joobjoob.app.seoul_culture_api.Kakao.KaKaoLoginActivity"
+            android:allowBackup="true"
+            android:icon="@mipmap/new_icon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/new_icon"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/get_kakao_sdk_appkey" />
+
+    </application>
+
+</manifest>

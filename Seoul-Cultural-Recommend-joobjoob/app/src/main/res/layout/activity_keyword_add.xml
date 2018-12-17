@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/keyword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="140dp"
+                android:lineSpacingExtra="6.6sp"
+                android:text="나의 취향 키워드를\n모두 골라주세요."
+                android:textColor="#3d4c5a"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginRight="38dp">
+
+                    <CheckBox
+                        android:id="@+id/Checkbox01"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="이색적인"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox02"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="차분한"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox03"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="마이너한"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox04"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="인기많은"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox05"
+                        android:layout_width="82dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="가족과 함께"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox06"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="데이트"
+                        android:textColor="#353535" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="38dp"
+                    android:layout_marginTop="14dp">
+
+                    <CheckBox
+                        android:id="@+id/Checkbox07"
+                        android:layout_width="82dp"
+                        android:layout_height="37dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="아이와 함께"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox08"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="활동적인"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox09"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="키치한"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox10"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="저녁시간"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox11"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="낮시간"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox12"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="실내"
+                        android:textColor="#353535" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginRight="38dp"
+                    android:layout_marginTop="14dp">
+
+                    <CheckBox
+                        android:id="@+id/Checkbox13"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="야외"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox14"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="디자인"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox15"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="회화"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox16"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="건축"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox17"
+                        android:layout_width="72dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="고전적인"
+                        android:textColor="#353535" />
+
+                    <CheckBox
+                        android:id="@+id/Checkbox18"
+                        android:layout_width="82dp"
+                        android:layout_height="37dp"
+                        android:layout_marginLeft="11.4dp"
+                        android:background="@drawable/selector_btn_click"
+                        android:button="@null"
+                        android:checked="false"
+                        android:gravity="center"
+                        android:text="연인과 함께"
+                        android:textColor="#353535" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="180dp">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="266dp"
+                android:layout_height="48dp"
+                android:background="#f5f7f8"
+                android:lineSpacingExtra="6.6sp"
+                android:text="추가하기"
+                android:textColor="#39acfe"
+                android:textSize="19sp" />
+
+            <ImageButton
+                android:id="@+id/addKeyword"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:background="@color/backColor"
+                android:src="@drawable/plus_button"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
